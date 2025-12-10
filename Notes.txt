@@ -10,3 +10,10 @@ of the Internet was within the ARPANET project in the late 1960s. This project w
 Department and was the first documented network in action. However, it wasn't until 1989 when the Internet as we know 
 it was invented by Tim Berners-Lee by the creation of the World Wide Web (WWW). It wasn't until this point that the Internet 
 started to be used as a repository for storing and sharing information, just like it is today.
+
+IP Address:
+An IP address (or Internet Protocol) address can be used as a way of identifying a host on a network for a period of time, 
+where that IP address can then be associated with another device without the IP address changing. An IP address is a set of 
+numbers that are divided into four octets. The value of each octet will summarise to be the IP address of the device on the 
+network. This number is calculated through a technique known as IP addressing & subnetting, IP addresses can change from device 
+to device but cannot be active simultaneously more than once within the same network.
