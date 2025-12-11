@@ -22,7 +22,7 @@ started to be used as a repository for storing and sharing information, just lik
  A public address is used to identify the device on the Internet, whereas a private address is used to identify a device amongst 
  other devices.
 
- MAC Addresses:
+MAC Addresses:
  Devices on a network will all have a physical network interface, which is a microchip board found on the device's motherboard. 
  This network interface is assigned a unique address at the factory it was built at, called a MAC (Media Access Control ) address. 
  The MAC address is a twelve-character hexadecimal number (a base sixteen numbering system used in computing to represent numbers) 
