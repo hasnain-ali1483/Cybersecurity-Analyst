@@ -44,3 +44,8 @@ started to be used as a repository for storing and sharing information, just lik
  This tool can be easily used and comes installed on Operating Systems (OSs) such as Linux and Windows. The syntax to do a simple ping is 
  ping IP address or website URL.
 
+LAN Topologies:
+LAN Topologies are the physical connections between devices on a network. There are three main types of LAN topologies:
+
+ 
+
