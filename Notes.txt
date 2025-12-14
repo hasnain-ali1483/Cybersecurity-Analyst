@@ -138,3 +138,21 @@ Subnets use IP addresses in three different ways:
  The default gateway address is a special address assigned to a device on the network that is capable of sending information to another network.
  Any data that needs to go to a device that isn't on the same network (i.e. isn't on 192.168.1.0) will be sent to this device. These devices can 
  use any host address but usually use either the first or last host address in a network (.1 or .254).
+
+ARP:
+A MAC address and an IP address, the Address Resolution Protocol or ARP for short, is the technology that is responsible for allowing devices to 
+identify themselves on a network. Simply, ARP allows a device to associate its MAC address with an IP address on the network. Each device on a 
+network will keep a log of the MAC addresses associated with other devices. When devices wish to communicate with another, they will send a
+broadcast to the entire network searching for the specific device. Devices can use ARP to find the MAC address (and therefore the physical 
+identifier) of a device for communication.
+
+ Working of ARP:
+ Each device within a network has a ledger to store information on, which is called a cache. In the context of ARP, this cache stores the identifiers 
+ of other devices on the network.
+ 
+ In order to map these two identifiers together (IP address and MAC address), ARP sends two types of messages:
+ ->ARP Request
+ ->ARP Reply
+ When an ARP request is sent, a message is broadcasted on the network to other devices asking, "What is the mac address that owns this IP address?" 
+ When the other devices receive that message, they will only respond if they own that IP address and will send an ARP reply with its MAC address. 
+ The requesting device can now remember this mapping and store it in its ARP cache for future use.
