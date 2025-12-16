@@ -181,4 +181,9 @@ Layer 3: Network Layer
 Layer 2: Data Link Layer
 Layer 1: Physical Layer
 
+ ->Physical Layer: This layer references the physical components of the hardware used in networking and is the lowest layer that you will find. 
+   Devices use electrical signals to transfer data between each other in a binary numbering system (1's and 0's).
+
+   For example, ethernet cables connecting devices.
+
 
