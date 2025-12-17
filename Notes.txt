@@ -258,5 +258,10 @@ Layer 1: Physical Layer
    but the contents of the email will still need to display the same. Security features such as data encryption (like HTTPS when visiting a secure site) 
    occur at this layer.
 
+ ->Application Layer:
+   The application layer is the layer in which protocols and rules are in place to determine how the user should interact with data sent or received. 
+   Everyday applications such as email clients, browsers, or file server browsing software such as FileZilla provide a friendly, Graphical User Interface 
+   (GUI) for users to interact with data sent or received. Other protocols include DNS (Domain Name System), which is how website addresses are translated 
+   into IP addresses.
 
 
