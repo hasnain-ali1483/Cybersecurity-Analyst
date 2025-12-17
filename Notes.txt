@@ -245,5 +245,12 @@ Layer 1: Physical Layer
       UDP is useful in situations where there are small pieces of data being sent. For example, protocols used for discovering devices (ARP and DHCP) 
       or larger files such as video streaming (where it is okay if some part of the video is pixelated. Pixels are just lost pieces of data!)
 
+ ->Session Layer:
+   Once data has been correctly translated or formatted from the presentation layer (layer 6), the session layer (layer 5) will begin to create and 
+   maintain the connection to other computer for which the data is destined. When a connection is established, a session is created. Whilst this 
+   connection is active, so is the session. The session layer is also responsible for closing the connection if it hasn't been used in a while or 
+   if it is lost. Additionally, a session can contain "checkpoints," where if the data is lost, only the newest pieces of data are required to be 
+   sent, saving bandwidth. Sessions are unique — meaning that data cannot travel over different sessions, but in fact, only across each session instead.
+
 
 
