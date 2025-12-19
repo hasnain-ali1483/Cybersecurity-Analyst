@@ -104,10 +104,17 @@ Both Switches and Routers can be connected to one another. The ability to do thi
 multiple paths for data to take. If one path goes down, another can be used. Whilst this may reduce the overall performance of a network because 
 packets have to take longer to travel, there is no downtime -- a small price to pay considering the alternative.
 
+Switches can operate at both layer 2 and layer 3 of the OSI model. However, these are exclusive in the sense that Layer 2 switches cannot operate at layer 3.
+Layer 2 switches will forward frames (remember that the original IP packets are encapsulated within the frames) onto the connected devices using their MAC address.
+These switches are solely responsible for sending frames to the correct device. 
+Now, let's move onto layer 3 switches. These switches are more sophisticated than layer 2, as they can perform some of the responsibilities of a router. Namely, 
+these switches will send frames to devices (as layer 2 does) and route packets to other devices using the IP protocol. 
+
 Router:
 It's a router's job to connect networks and pass data between them. It does this by using routing (hence the name router!). Routing is the label 
 given to the process of data travelling across networks. Routing involves creating a path between networks so that this data can be successfully 
-delivered. Routing is useful when devices are connected by many paths
+delivered. Routing is useful when devices are connected by many paths. Routers operate at Layer 3 of the OSI model. They often feature an interactive 
+interface (such as a website or a console) that allows an administrator to configure various rules such as port forwarding or firewalling.
 
 Subnetting:
 Subnetting is the process of dividing a network into smaller networks. This is done by dividing the network into multiple smaller networks. 
@@ -453,3 +460,11 @@ VPN Technologies:
 
 ->IPSec: Internet Protocol Security (IPsec) encrypts data using the existing Internet Protocol (IP) framework. IPSec is difficult to set up in comparison to alternatives; 
   however, if successful, it boasts strong encryption and is also supported on many devices.
+
+DNS:
+DNS (Domain Name System) provides a simple way for us to communicate with devices on the internet without remembering complex numbers. Much like every house has a 
+unique address for sending mail directly to it, every computer on the internet has its own unique address to communicate with it called an IP address. An IP 
+address looks like the following 104.26.10.229, 4 sets of digits ranging from 0 - 255 separated by a period. When you want to visit a website, it's not exactly 
+convenient to remember this complicated set of numbers, and that's where DNS can help. So instead of remembering 104.26.10.229, you can remember tryhackme.com instead.
+
+ 
