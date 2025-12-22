@@ -622,3 +622,14 @@ communicating with web servers for the transmitting of webpage data, whether tha
     Line 6: HTTP response contains a blank line to confirm the end of the HTTP response.
 
     Lines 7-14: The information that has been requested, in this instance the homepage.
+
+ HTTP Methods:
+ HTTP methods are a way for the client to show their intended action when making an HTTP request. The most common ones are:
+
+  ->GET Request: This is used for getting information from a web server.
+
+  ->POST Request: This is used for submitting data to the web server and potentially creating new records.
+
+  ->PUT Request: This is used for submitting data to a web server to update information.
+
+  ->DELETE Request: This is used for deleting information/records from a web server.
