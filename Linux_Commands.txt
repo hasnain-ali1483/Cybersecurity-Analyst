@@ -7,6 +7,11 @@ Example: whoami
 clear: Clear the screen
 Example: clear
 
+sleep: Pause the terminal for a specified amount of time
+Example: sleep 5
+         sleep 10m
+         sleep 1h
+
 wc : Word count
 Example: wc file1.txt
          wc -l file1.txt (Gives the number of lines in the file)
@@ -15,23 +20,38 @@ Example: wc file1.txt
 
 Interacting With the Filesystem:
 
-ls : List the contents of the current directory
-Example: ls
+ ls : List the contents of the current directory
+ Example: ls
 
-cd : Change directory
-Example: cd folder4
+ cd : Change directory
+ Example: cd folder4
 
-cat : Display the contents of a file
-Example: cat file1.txt
+ cat : Display the contents of a file
+ Example: cat file1.txt
 
-pwd : Print the current working directory
-Example: pwd
+ pwd : Print the current working directory
+ Example: pwd
 
 Searching for Files:
 
-find : Search for files
-Example: find -name "*.txt" (Searches for all files with the .txt extension)
-         find -name "file1.txt"
+ find : Search for files
+ Example: find -name "*.txt" (Searches for all files with the .txt extension)
+          find -name "file1.txt"
 
-grep : Search for text in files
-Example: grep "Hello" file1.txt
+ grep : Search for text in files
+ Example: grep "Hello" file1.txt
+
+ Shell Operators:
+
+ & : Run a command in the background (job ID and process ID (PID) gets printed too).
+ Example: ls &
+          sleep 5 & echo "Hello World"
+
+ && : This allows you to combine multiple commands together in one line of your terminal.
+ Example: echo "Hello World" && echo "Goodbye World"
+
+ > : Redirect the output of a command to a file
+ Example: echo "Hello World" > file1.txt
+
+ >> : This does the same function of the > operator but appends the output rather than replacing (meaning nothing is overwritten).
+ Example: echo "Hello World" >> file1.txt
