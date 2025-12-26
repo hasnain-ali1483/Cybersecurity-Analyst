@@ -1,0 +1,8 @@
+echo : Output any text that we provide
+Example: echo "Hello World"
+
+whoami: Output the username of the current user
+Example: whoami
+
+clear: Clear the screen
+Example: clear
