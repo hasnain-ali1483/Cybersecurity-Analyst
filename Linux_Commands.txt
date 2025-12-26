@@ -7,6 +7,12 @@ Example: whoami
 clear: Clear the screen
 Example: clear
 
+wc : Word count
+Example: wc file1.txt
+         wc -l file1.txt (Gives the number of lines in the file)
+         wc -c file1.txt (Gives the number of byes in the file)
+         wc -w file1.txt (Gives the number of words in the file)
+
 Interacting With the Filesystem:
 
 ls : List the contents of the current directory
@@ -20,3 +26,12 @@ Example: cat file1.txt
 
 pwd : Print the current working directory
 Example: pwd
+
+Searching for Files:
+
+find : Search for files
+Example: find -name "*.txt" (Searches for all files with the .txt extension)
+         find -name "file1.txt"
+
+grep : Search for text in files
+Example: grep "Hello" file1.txt
