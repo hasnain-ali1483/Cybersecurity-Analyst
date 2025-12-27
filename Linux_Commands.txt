@@ -55,3 +55,17 @@ Searching for Files:
 
  >> : This does the same function of the > operator but appends the output rather than replacing (meaning nothing is overwritten).
  Example: echo "Hello World" >> file1.txt
+
+
+Flags and Switches:
+A majority of commands allow for arguments to be provided. These arguments are identified by a hyphen and a certain keyword known 
+as flags or switches.
+
+ -a: This argument (short for --all) will display all files(including hidden files) in the current directory.
+ Example: ls -a
+
+ --help: This option will list the possible options that the command accepts, provide a brief description and example of how to use it.
+ Example: ls --help
+
+ man: Display the manual page for a command.
+ Example: man ls
