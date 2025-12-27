@@ -47,6 +47,7 @@ Interacting With the Filesystem:
 
  mv : Move a file or directory
  Example: mv file1.txt file2.txt (Moving from file1.txt to file2.txt, if file2.txt does not exist, it will be created)
+          mv file1.txt folder1
 
  file : Display information about a file
  Example: file file1.txt
