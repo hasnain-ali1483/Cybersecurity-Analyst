@@ -32,6 +32,25 @@ Interacting With the Filesystem:
  pwd : Print the current working directory
  Example: pwd
 
+ touch : Create a new file
+ Example: touch file1.txt
+
+ mkdir: Create a new directory
+ Example: mkdir folder1
+
+ rm : Remove a file or directory
+ Example: rm file1.txt
+          rm -r folder1 (for removing a directory)
+
+ cp : Copy a file or directory
+ Example: cp file1.txt file2.txt (Copying from file1.txt to file2.txt, if file2.txt does not exist, it will be created)
+
+ mv : Move a file or directory
+ Example: mv file1.txt file2.txt (Moving from file1.txt to file2.txt, if file2.txt does not exist, it will be created)
+
+ file : Display information about a file
+ Example: file file1.txt
+
 Searching for Files:
 
  find : Search for files
@@ -41,7 +60,7 @@ Searching for Files:
  grep : Search for text in files
  Example: grep "Hello" file1.txt
 
- Shell Operators:
+Shell Operators:
 
  & : Run a command in the background (job ID and process ID (PID) gets printed too).
  Example: ls &
@@ -61,11 +80,11 @@ Flags and Switches:
 A majority of commands allow for arguments to be provided. These arguments are identified by a hyphen and a certain keyword known 
 as flags or switches.
 
- -a: This argument (short for --all) will display all files(including hidden files) in the current directory.
+ -a : This argument (short for --all) will display all files(including hidden files) in the current directory.
  Example: ls -a
 
- --help: This option will list the possible options that the command accepts, provide a brief description and example of how to use it.
+ --help : This option will list the possible options that the command accepts, provide a brief description and example of how to use it.
  Example: ls --help
 
- man: Display the manual page for a command.
+ man : Display the manual page for a command.
  Example: man ls
